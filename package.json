@@ -1,0 +1,27 @@
+{
+  "name": "tabs-components",
+  "version": "1.0.0",
+  "description": "Topics:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "live-server",
+    "watch-less": "less-watch-compiler LESS CSS index.less",
+    "start": "npm-run-all --parallel devserver watch-less"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrloom/Tabs-Components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrloom/Tabs-Components/issues"
+  },
+  "homepage": "https://github.com/jrloom/Tabs-Components#readme",
+  "devDependencies": {
+    "less-watch-compiler": "^1.13.0",
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
