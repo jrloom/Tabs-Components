@@ -31,3 +31,9 @@ Use the data attribute in a CSS style selector
 ```js
 const schoolElement = document.querySelector("div[data-school='Lambda']");
 ```
+
+# Lecture
+
+```js
+const tabs = document.querySelectorAll("");
+```
