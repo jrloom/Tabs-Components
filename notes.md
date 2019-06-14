@@ -34,6 +34,4 @@ const schoolElement = document.querySelector("div[data-school='Lambda']");
 
 # Lecture
 
-```js
-const tabs = document.querySelectorAll("");
-```
+(forked the codepen)
